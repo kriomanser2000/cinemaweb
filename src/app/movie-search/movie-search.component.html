@@ -1,0 +1,19 @@
+<div class="mainDiv">
+    <div class="MainTextDiv1">
+        <p class="inlineTxt" style="font-weight: 900;">UA</p>
+        <p class="inlineTxt">Cinema</p>
+        <div class="searchCont">
+            <input type="text" placeholder="Пошук..." class="searchInput" [(ngModel)]="movieTitle">
+            <button class="btnSearch" (click)="searchMovie()">SEARCH</button>
+            <button class="btnLogin">Увійти</button>
+        </div>
+    </div>
+</div>
+<div *ngIf="movie" class="movie-details">
+    <h2>{{ movie.Title }}</h2>
+    <p><strong>Year:</strong> {{ movie.Year }}</p>
+    <p><strong>Rating:</strong> {{ movie.imdbRating }}</p>
+    <p><strong>Duration:</strong> {{ movie.Runtime }}</p>
+    <p><strong>Director:</strong> {{ movie.Director }}</p>
+    <p><strong>Actors:</strong> {{ movie.Actors }}</p>
+</div>

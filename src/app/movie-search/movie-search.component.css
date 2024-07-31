@@ -1,0 +1,148 @@
+* 
+{
+    font-family: Nunito;
+}
+body 
+{
+    font-family: Nunito;
+    background-color: rgb(217, 224, 230);
+    overflow-y: scroll;
+}
+.forBodyBG 
+{
+    position: absolute;
+    top: 1800px;
+    color: rgb(217, 224, 230);
+    user-select: none;
+}
+.mainDiv 
+{
+    color: black;
+    background: whitesmoke;
+    position: absolute;
+    width: 60%;
+    height: 180%;
+    top: 60px;
+    left: 350px;
+    border-radius: 7px;
+    border: 1px solid rgb(218, 215, 215);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.MainTextDiv1 
+{
+    white-space: nowrap;
+    font-size: 26px;
+    margin: 30px;
+    z-index: 5;
+    position: relative;
+}
+.inlineTxt 
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+.bgForMainTxt1 
+{
+    position: absolute;
+    width: 60%;
+    height: 10%;
+    top: 60px;
+    left: 350px;
+    border-radius: 7px;
+    border: 1px solid rgb(209, 228, 228);
+    background-color: rgb(209, 228, 228);
+    color: rgb(209, 228, 228);
+}
+.searchCont 
+{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    width: 600px;
+    position: absolute;
+    top: -15px;
+    left: 200px;
+}
+.searchInput 
+{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px 0 0 25px;
+    width: 100px;
+    font-size: 16px;
+}
+.searchInput::placeholder 
+{
+    color: #aaa;
+    font-style: italic;
+}
+.btnSearch 
+{
+    position: absolute;
+    left: 500px;
+    height: 100%;
+    width: 160px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.btnSearch:hover 
+{
+    background-color: rgb(209, 228, 228);
+    cursor: pointer;
+}
+.btnLogin 
+{
+    position: absolute;
+    left: 680px;
+    height: 100%;
+    width: 160px;
+    align-items: center;
+    background-color: #89c6ff88;
+    border-radius: 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.btnLogin:hover 
+{
+    background-color: #4375a3a1;
+    cursor: pointer;
+}
+.bgForMainTxt2 
+{
+    position: absolute;
+    width: 60%;
+    height: 4%;
+    top: 150px;
+    left: 350px;
+    border-radius: 0 0 7px 7px;
+    border: 1px solid rgb(168, 214, 214);
+    background-color: rgb(168, 214, 214);
+    color: rgb(168, 214, 214);
+}
+.sasa1 
+{
+    user-select: none;
+}
+input 
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 26px;
+}
